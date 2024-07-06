@@ -19,7 +19,7 @@ function Features() {
 					<div></div>
 
 					<section className="xxs:flex xxs:flex-col xxs:items-center xl:block xl:col-start-1">
-						<img src={dollagIcon} alt="" className="w-16 flex" />
+						<img src={dollagIcon} alt="" className="w-16 flex" loading="lazy" />
 						<p className="font-bold my-4">Save time & Reduce cost</p>
 						<p className="text-slate-500">
 							Building your own online store, shopping cart,
@@ -29,7 +29,7 @@ function Features() {
 					</section>
 
 					<section className="xxs:flex xxs:flex-col xxs:items-center xl:block ">
-						<img src={noodlesIcon} alt="" className="w-16" />
+						<img src={noodlesIcon} alt="" className="w-16" loading="lazy" />
 						<p className="font-bold my-4">More features</p>
 
 						<p className="text-slate-500">
@@ -40,7 +40,7 @@ function Features() {
 					</section>
 
 					<section className="xxs:flex xxs:flex-col xxs:items-center xl:block col-start-1">
-						<img src={handloveIcon} alt="" className="w-16" />
+						<img src={handloveIcon} alt="" className="w-16" loading="lazy" />
 						<p className="font-bold my-4">Sell your popular product more</p>
 
 						<p className="text-slate-500">
@@ -51,7 +51,7 @@ function Features() {
 					</section>
 
 					<section className="xxs:flex xxs:flex-col xxs:items-center xl:block ">
-						<img src={worldIcon} alt="" className="w-16" />
+						<img src={worldIcon} alt="" className="w-16" loading="lazy" />
 						<p className="font-bold my-4">Sell it across the globe</p>
 
 						<p className="text-slate-500">

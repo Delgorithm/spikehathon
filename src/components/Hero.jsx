@@ -36,6 +36,7 @@ function Hero() {
 					src={socialProof}
 					alt="Users' profil pictures"
 					className="xxs:w-32 xl:w-24"
+					loading="lazy"
 				/>
 				<p className="xxs:text-[1.1em] xl:text-xs">
 					<span className="font-bold">More than 100+</span> users are selling
@@ -48,6 +49,7 @@ function Hero() {
 					src={imgPresentation}
 					alt="Application's features"
 					className="w-[70rem]"
+					loading="lazy"
 				/>
 			</article>
 		</section>
