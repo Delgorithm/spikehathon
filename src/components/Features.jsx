@@ -11,13 +11,15 @@ import { GoArrowRight } from "react-icons/go";
 function Features() {
 	return (
 		<article className="flex flex-col items-center justify-center">
-			<section className="mt-32 grid grid-cols-1 grid-rows-1">
-				<h2 className="text-6xl font-black font-DGO">Features</h2>
-				<section className="relative grid grid-cols-3 grid-rows-1 gap-16">
+			<section className="xxs:mt-16 xl:mt-16 xl:py-16 xl:px-6 grid grid-cols-1 grid-rows-1 bg-white rounded-xl border shadow-lg">
+				<h2 className="xxs:text-5xl xl:text-6xl xxs:text-center xl:text-left font-black font-DGO">
+					Features
+				</h2>
+				<section className="relative xxs:p-10 xl:p-0 grid xxs:grid-cols-1 xxs:grid-rows-1 xl:grid-cols-3 xl:grid-rows-1 gap-16">
 					<div></div>
 
-					<section className="col-start-1">
-						<img src={dollagIcon} alt="" className="w-16" />
+					<section className="xxs:flex xxs:flex-col xxs:items-center xl:block xl:col-start-1">
+						<img src={dollagIcon} alt="" className="w-16 flex" />
 						<p className="font-bold my-4">Save time & Reduce cost</p>
 						<p className="text-slate-500">
 							Building your own online store, shopping cart,
@@ -26,7 +28,7 @@ function Features() {
 						</p>
 					</section>
 
-					<section>
+					<section className="xxs:flex xxs:flex-col xxs:items-center xl:block ">
 						<img src={noodlesIcon} alt="" className="w-16" />
 						<p className="font-bold my-4">More features</p>
 
@@ -37,7 +39,7 @@ function Features() {
 						</p>
 					</section>
 
-					<section className="col-start-1">
+					<section className="xxs:flex xxs:flex-col xxs:items-center xl:block col-start-1">
 						<img src={handloveIcon} alt="" className="w-16" />
 						<p className="font-bold my-4">Sell your popular product more</p>
 
@@ -48,7 +50,7 @@ function Features() {
 						</p>
 					</section>
 
-					<section>
+					<section className="xxs:flex xxs:flex-col xxs:items-center xl:block ">
 						<img src={worldIcon} alt="" className="w-16" />
 						<p className="font-bold my-4">Sell it across the globe</p>
 
@@ -59,7 +61,7 @@ function Features() {
 						</p>
 					</section>
 
-					<section className="flex items-center justify-around py-6 px-8 col-start-3 row-start-2 absolute border shadow-lg rounded-lg">
+					<section className="flex items-center justify-around py-6 px-8 xl:col-start-3 xl:row-start-2 xl:absolute border shadow-lg rounded-lg">
 						<div>
 							<p className="text-blue-500 font-bold text-lg">Try for free</p>
 							<p className="w-44 text-slate-500">*No credit card required</p>
@@ -69,7 +71,7 @@ function Features() {
 						</button>
 					</section>
 
-					<section className="flex flex-col col-start-3 my-6 row-start-3 absolute border shadow-lg rounded-lg translate-x-64">
+					<section className="flex flex-col xl:col-start-3 my-6 xl:row-start-3 bg-white xl:absolute border shadow-lg rounded-lg xl:translate-x-32 xl:-translate-y-20">
 						<section className="mx-5">
 							<p className="text-center my-2 font-medium">Manage your store</p>
 							<div className="flex items-center gap-4">

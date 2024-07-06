@@ -2,12 +2,12 @@ import logoApp from "../assets/Subtractlogo.png";
 
 function Footer() {
 	return (
-		<footer className="flex justify-between items-center mt-24 mx-52 pb-32">
+		<footer className="flex justify-between xxs:items-start  xl:items-center xxs:mt-14 xl:mt-24 xxs:mx-12 xl:mx-52 pb-6">
 			<a href="#" className="flex items-center gap-2 text-xl">
 				<img src={logoApp} alt="Logo of the App" className="size-5" />
 				Sell
 			</a>
-			<ul className="flex gap-16 font-medium">
+			<ul className="flex xl:flex-row xxs:flex-col xxs:gap-4 xl:gap-16 font-medium">
 				<li>
 					<a href="#">Home</a>
 				</li>

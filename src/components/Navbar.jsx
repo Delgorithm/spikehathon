@@ -2,8 +2,8 @@ import logoApp from "../assets/Subtract.svg";
 import logoTwitter from "../assets/twitter-61.svg";
 function Navbar() {
 	return (
-		<nav className="flex justify-between items-center p-3 my-10 mx-[025em] rounded-2xl bg-black text-white">
-			<a href="#" className="flex items-center gap-2 text-xl">
+		<nav className="xxs:hidden xl:flex justify-between items-center p-3 my-10 mx-96  rounded-2xl bg-black text-white">
+			<a href="#" className="flex items-center gap-2 text-xl ">
 				<img src={logoApp} alt="Logo of the App" className="size-8" />
 				Sell
 			</a>

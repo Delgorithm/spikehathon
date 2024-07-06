@@ -1,11 +1,11 @@
 function Newsletter() {
 	return (
-		<section className="flex flex-col items-center justify-center mt-44 mx-52 pt-12 border shadow-xl rounded-3xl">
-			<h2 className="text-5xl text-center font-DGO leading-[1.5]">
+		<section className="flex flex-col items-center justify-center xxs:mt-12 xl:mt-44 xxs:mx-6 xl:mx-44 pt-12 border shadow-xl rounded-3xl bg-white">
+			<h2 className="xxs:text-3xl xl:text-5xl text-center font-DGO leading-[1.5]">
 				Be the first to know about new features, <br />
 				special offers, and more.
 			</h2>
-			<form action="POST" className="flex gap-3 py-10">
+			<form action="POST" className="flex xxs:flex-col xl:flex-row gap-3 py-10">
 				<label htmlFor="email" className="text-opacity-0 flex">
 					<input
 						type="email"
